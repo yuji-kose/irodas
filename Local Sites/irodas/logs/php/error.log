@@ -1,0 +1,148 @@
+[12-Aug-2020 06:03:53 UTC] PHP Warning:  Error while sending QUERY packet. PID=13220 in C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php on line 2024
+[12-Aug-2020 06:03:53 UTC] PHP Stack trace:
+[12-Aug-2020 06:03:53 UTC] PHP   1. {main}() C:\Users\yuji\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[12-Aug-2020 06:03:53 UTC] PHP   2. include() C:\Users\yuji\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[12-Aug-2020 06:03:53 UTC] PHP   3. include() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Aug-2020 06:03:53 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Aug-2020 06:03:53 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[12-Aug-2020 06:03:53 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[12-Aug-2020 06:03:53 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[12-Aug-2020 06:03:53 UTC] PHP   8. require() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[12-Aug-2020 06:03:53 UTC] PHP   9. do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-settings.php:540
+[12-Aug-2020 06:03:53 UTC] PHP  10. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:478
+[12-Aug-2020 06:03:53 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[12-Aug-2020 06:03:53 UTC] PHP  12. wp_widgets_init() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[12-Aug-2020 06:03:53 UTC] PHP  13. do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\widgets.php:1765
+[12-Aug-2020 06:03:53 UTC] PHP  14. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:478
+[12-Aug-2020 06:03:53 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[12-Aug-2020 06:03:53 UTC] PHP  16. WP_Widget_Factory->_register_widgets() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[12-Aug-2020 06:03:53 UTC] PHP  17. WP_Widget_Text->_register() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-widget-factory.php:102
+[12-Aug-2020 06:03:53 UTC] PHP  18. WP_Widget_Text->_register_one() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-widget.php:261
+[12-Aug-2020 06:03:53 UTC] PHP  19. wp_add_inline_script() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\widgets\class-wp-widget-text.php:58
+[12-Aug-2020 06:03:53 UTC] PHP  20. wp_scripts() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\functions.wp-scripts.php:128
+[12-Aug-2020 06:03:53 UTC] PHP  21. WP_Scripts->__construct() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\functions.wp-scripts.php:23
+[12-Aug-2020 06:03:53 UTC] PHP  22. WP_Scripts->init() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class.wp-scripts.php:142
+[12-Aug-2020 06:03:53 UTC] PHP  23. do_action_ref_array() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class.wp-scripts.php:167
+[12-Aug-2020 06:03:53 UTC] PHP  24. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:544
+[12-Aug-2020 06:03:53 UTC] PHP  25. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[12-Aug-2020 06:03:53 UTC] PHP  26. wp_default_packages() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[12-Aug-2020 06:03:53 UTC] PHP  27. wp_register_tinymce_scripts() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:526
+[12-Aug-2020 06:03:53 UTC] PHP  28. script_concat_settings() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:49
+[12-Aug-2020 06:03:53 UTC] PHP  29. get_site_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:2436
+[12-Aug-2020 06:03:53 UTC] PHP  30. get_network_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:1154
+[12-Aug-2020 06:03:53 UTC] PHP  31. get_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:1289
+[12-Aug-2020 06:03:53 UTC] PHP  32. wpdb->get_row() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:100
+[12-Aug-2020 06:03:53 UTC] PHP  33. wpdb->query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:2563
+[12-Aug-2020 06:03:53 UTC] PHP  34. wpdb->_do_query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:1912
+[12-Aug-2020 06:03:53 UTC] PHP  35. mysqli_query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:2024
+[17-Aug-2020 01:32:17 UTC] PHP Warning:  Error while sending QUERY packet. PID=15972 in C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php on line 2024
+[17-Aug-2020 01:32:17 UTC] PHP Stack trace:
+[17-Aug-2020 01:32:17 UTC] PHP   1. {main}() C:\Users\yuji\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Aug-2020 01:32:17 UTC] PHP   2. include() C:\Users\yuji\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Aug-2020 01:32:17 UTC] PHP   3. include() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Aug-2020 01:32:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Aug-2020 01:32:17 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Aug-2020 01:32:17 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Aug-2020 01:32:17 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[17-Aug-2020 01:32:17 UTC] PHP   8. require() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[17-Aug-2020 01:32:17 UTC] PHP   9. do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-settings.php:540
+[17-Aug-2020 01:32:17 UTC] PHP  10. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:478
+[17-Aug-2020 01:32:17 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[17-Aug-2020 01:32:17 UTC] PHP  12. wp_widgets_init() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[17-Aug-2020 01:32:17 UTC] PHP  13. do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\widgets.php:1765
+[17-Aug-2020 01:32:17 UTC] PHP  14. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:478
+[17-Aug-2020 01:32:17 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[17-Aug-2020 01:32:17 UTC] PHP  16. WP_Widget_Factory->_register_widgets() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[17-Aug-2020 01:32:17 UTC] PHP  17. WP_Widget_Text->_register() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-widget-factory.php:102
+[17-Aug-2020 01:32:17 UTC] PHP  18. WP_Widget_Text->_register_one() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-widget.php:252
+[17-Aug-2020 01:32:17 UTC] PHP  19. wp_add_inline_script() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\widgets\class-wp-widget-text.php:58
+[17-Aug-2020 01:32:17 UTC] PHP  20. wp_scripts() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\functions.wp-scripts.php:128
+[17-Aug-2020 01:32:17 UTC] PHP  21. WP_Scripts->__construct() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\functions.wp-scripts.php:23
+[17-Aug-2020 01:32:17 UTC] PHP  22. WP_Scripts->init() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class.wp-scripts.php:142
+[17-Aug-2020 01:32:17 UTC] PHP  23. do_action_ref_array() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class.wp-scripts.php:167
+[17-Aug-2020 01:32:17 UTC] PHP  24. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:544
+[17-Aug-2020 01:32:17 UTC] PHP  25. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[17-Aug-2020 01:32:17 UTC] PHP Warning:  Error while sending QUERY packet. PID=7752 in C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php on line 2024
+[17-Aug-2020 01:32:17 UTC] PHP  26. wp_default_packages() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[17-Aug-2020 01:32:17 UTC] PHP Stack trace:
+[17-Aug-2020 01:32:17 UTC] PHP  27. wp_register_tinymce_scripts() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:526
+[17-Aug-2020 01:32:17 UTC] PHP   1. {main}() C:\Users\yuji\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Aug-2020 01:32:17 UTC] PHP  28. script_concat_settings() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:49
+[17-Aug-2020 01:32:17 UTC] PHP   2. include() C:\Users\yuji\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Aug-2020 01:32:17 UTC] PHP  29. get_site_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:2436
+[17-Aug-2020 01:32:17 UTC] PHP   3. include() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Aug-2020 01:32:17 UTC] PHP  30. get_network_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:1154
+[17-Aug-2020 01:32:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Aug-2020 01:32:17 UTC] PHP  31. get_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:1289
+[17-Aug-2020 01:32:17 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Aug-2020 01:32:17 UTC] PHP  32. wpdb->get_row() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:100
+[17-Aug-2020 01:32:17 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Aug-2020 01:32:17 UTC] PHP  33. wpdb->query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:2563
+[17-Aug-2020 01:32:17 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[17-Aug-2020 01:32:17 UTC] PHP   8. require() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[17-Aug-2020 01:32:17 UTC] PHP  34. wpdb->_do_query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:1912
+[17-Aug-2020 01:32:17 UTC] PHP   9. do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-settings.php:540
+[17-Aug-2020 01:32:17 UTC] PHP  35. mysqli_query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:2024
+[17-Aug-2020 01:32:17 UTC] PHP  10. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:478
+[17-Aug-2020 01:32:17 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[17-Aug-2020 01:32:17 UTC] PHP  12. wp_widgets_init() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[17-Aug-2020 01:32:17 UTC] PHP  13. do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\widgets.php:1765
+[17-Aug-2020 01:32:17 UTC] PHP  14. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:478
+[17-Aug-2020 01:32:17 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[17-Aug-2020 01:32:17 UTC] PHP  16. WP_Widget_Factory->_register_widgets() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[17-Aug-2020 01:32:17 UTC] PHP  17. WP_Widget_Text->_register() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-widget-factory.php:102
+[17-Aug-2020 01:32:17 UTC] PHP  18. WP_Widget_Text->_register_one() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-widget.php:252
+[17-Aug-2020 01:32:17 UTC] PHP  19. wp_add_inline_script() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\widgets\class-wp-widget-text.php:58
+[17-Aug-2020 01:32:17 UTC] PHP  20. wp_scripts() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\functions.wp-scripts.php:128
+[17-Aug-2020 01:32:17 UTC] PHP  21. WP_Scripts->__construct() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\functions.wp-scripts.php:23
+[17-Aug-2020 01:32:17 UTC] PHP  22. WP_Scripts->init() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class.wp-scripts.php:142
+[17-Aug-2020 01:32:17 UTC] PHP  23. do_action_ref_array() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class.wp-scripts.php:167
+[17-Aug-2020 01:32:17 UTC] PHP  24. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:544
+[17-Aug-2020 01:32:17 UTC] PHP  25. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[17-Aug-2020 01:32:17 UTC] PHP  26. wp_default_packages() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[17-Aug-2020 01:32:17 UTC] PHP  27. wp_register_tinymce_scripts() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:526
+[17-Aug-2020 01:32:17 UTC] PHP  28. script_concat_settings() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:49
+[17-Aug-2020 01:32:17 UTC] PHP  29. get_site_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:2436
+[17-Aug-2020 01:32:17 UTC] PHP  30. get_network_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:1154
+[17-Aug-2020 01:32:17 UTC] PHP  31. get_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:1289
+[17-Aug-2020 01:32:17 UTC] PHP  32. wpdb->get_row() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:100
+[17-Aug-2020 01:32:17 UTC] PHP  33. wpdb->query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:2563
+[17-Aug-2020 01:32:17 UTC] PHP  34. wpdb->_do_query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:1912
+[17-Aug-2020 01:32:17 UTC] PHP  35. mysqli_query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:2024
+[17-Aug-2020 01:32:17 UTC] PHP Warning:  Error while sending QUERY packet. PID=15060 in C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php on line 2024
+[17-Aug-2020 01:32:17 UTC] PHP Stack trace:
+[17-Aug-2020 01:32:17 UTC] PHP   1. {main}() C:\Users\yuji\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[17-Aug-2020 01:32:17 UTC] PHP   2. include() C:\Users\yuji\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[17-Aug-2020 01:32:17 UTC] PHP   3. include() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[17-Aug-2020 01:32:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[17-Aug-2020 01:32:17 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[17-Aug-2020 01:32:17 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[17-Aug-2020 01:32:17 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[17-Aug-2020 01:32:17 UTC] PHP   8. require() phar://C:/Users/yuji/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[17-Aug-2020 01:32:17 UTC] PHP   9. do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-settings.php:540
+[17-Aug-2020 01:32:17 UTC] PHP  10. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:478
+[17-Aug-2020 01:32:17 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[17-Aug-2020 01:32:17 UTC] PHP  12. wp_widgets_init() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[17-Aug-2020 01:32:17 UTC] PHP  13. do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\widgets.php:1765
+[17-Aug-2020 01:32:17 UTC] PHP  14. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:478
+[17-Aug-2020 01:32:17 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[17-Aug-2020 01:32:17 UTC] PHP  16. WP_Widget_Factory->_register_widgets() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[17-Aug-2020 01:32:17 UTC] PHP  17. WP_Widget_Text->_register() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-widget-factory.php:102
+[17-Aug-2020 01:32:17 UTC] PHP  18. WP_Widget_Text->_register_one() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-widget.php:252
+[17-Aug-2020 01:32:17 UTC] PHP  19. wp_add_inline_script() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\widgets\class-wp-widget-text.php:58
+[17-Aug-2020 01:32:17 UTC] PHP  20. wp_scripts() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\functions.wp-scripts.php:128
+[17-Aug-2020 01:32:17 UTC] PHP  21. WP_Scripts->__construct() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\functions.wp-scripts.php:23
+[17-Aug-2020 01:32:17 UTC] PHP  22. WP_Scripts->init() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class.wp-scripts.php:142
+[17-Aug-2020 01:32:17 UTC] PHP  23. do_action_ref_array() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class.wp-scripts.php:167
+[17-Aug-2020 01:32:17 UTC] PHP  24. WP_Hook->do_action() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\plugin.php:544
+[17-Aug-2020 01:32:17 UTC] PHP  25. WP_Hook->apply_filters() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:311
+[17-Aug-2020 01:32:17 UTC] PHP  26. wp_default_packages() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\class-wp-hook.php:287
+[17-Aug-2020 01:32:17 UTC] PHP  27. wp_register_tinymce_scripts() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:526
+[17-Aug-2020 01:32:17 UTC] PHP  28. script_concat_settings() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:49
+[17-Aug-2020 01:32:17 UTC] PHP  29. get_site_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\script-loader.php:2436
+[17-Aug-2020 01:32:17 UTC] PHP  30. get_network_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:1154
+[17-Aug-2020 01:32:17 UTC] PHP  31. get_option() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:1289
+[17-Aug-2020 01:32:17 UTC] PHP  32. wpdb->get_row() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\option.php:100
+[17-Aug-2020 01:32:17 UTC] PHP  33. wpdb->query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:2563
+[17-Aug-2020 01:32:17 UTC] PHP  34. wpdb->_do_query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:1912
+[17-Aug-2020 01:32:17 UTC] PHP  35. mysqli_query() C:\Users\yuji\Local Sites\irodas\app\public\wp-includes\wp-db.php:2024
